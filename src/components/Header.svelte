@@ -18,6 +18,7 @@
     <NavLi href="#about">O nas</NavLi>
     <NavLi href="#projects">Nasze projekty</NavLi>
     <NavLi href="#donate">Wspieraj nas</NavLi>
+    <NavLi href="#team">Nasza ekipa</NavLi>
     <NavLi href="#contact">Contact</NavLi>
   </NavUl>
 </Navbar>
