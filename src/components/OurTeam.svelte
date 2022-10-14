@@ -4,7 +4,7 @@
  
 </script>
 
-<div class="flex-align-center m-4 w-8/12  ">
+<div class="flex-align-center m-4">
     {#each membersList as memberData}
         <MemberCard {memberData}/>
     {/each}
