@@ -1,10 +1,5 @@
 <script>
   import { Avatar } from "flowbite-svelte";
-  import AOS from 'aos';
-  import { onMount } from 'svelte';
-  onMount(() => {
-      AOS.init();
-  });       
 
   export let social;
 </script>
