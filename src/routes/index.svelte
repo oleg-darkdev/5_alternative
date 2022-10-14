@@ -2,7 +2,7 @@
 	import AboutUs from '../components/AboutUs.svelte';
 	import ProjectCard from '../components/ProjectCard.svelte';
 	import OneProcent from '../components/OneProcent.svelte'
-
+	import OutTeam from '../components/OurTeam.svelte';
 
 	const projectsList = [
 		{
@@ -62,7 +62,6 @@
 <section class="mb-12 mt-12 lg:w-7/12 px-8 sm:w-8/12 h-auto p-10 "> 
 	<a name="about"></a> 
 	<h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl ">O nas</h2>
-
 	<AboutUs />
 </section>
 
@@ -73,11 +72,27 @@
 		<ProjectCard align = {project.align} title={project.title} img={project.img} description={project.description}/>
 	{/each}
 </section>
-<section class="yellow-bg  mt-12 lg:w-7/12  sm:w-8/12 h-auto "> 
+<section class="mt-12 lg:w-7/12  sm:w-8/12 h-auto p-10 "> 
 	<a name="donate"></a> 
 
 	<OneProcent />
 </section>
+
+<section class="turq-bg  mt-12 lg:w-7/12  sm:w-8/12 h-auto p-10 "> 
+	<a name="team"></a> 
+	
+	<h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl ">Nasza ekipa</h2>
+	<OutTeam />
+</section>
+
+	
+
+
+
+
+
+
+
 
 <style>
 	section {
@@ -87,10 +102,13 @@
 		align-items: center;
 	}
 
-.yellow-bg {
-	background-color: #f3e600;
+	.yellow-bg {
+		background-color: #f3e600;
+	}
 
-}
+	.turq-bg {
+		background-color: #32B295;
+	}
 
 
 .bg {
