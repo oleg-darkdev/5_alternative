@@ -3,7 +3,7 @@
     
     import socialData from '../data/social';
 </script>
-<div class=" flex flex-wrap justify-center flex-row  p-6 rounded-3xl bg-gray-800 ">
+<div class=" flex flex-wrap justify-center flex-row  sm:p-1 lg:p-6 md:p-6 rounded-3xl bg-gray-800 ">
     {#each socialData as social}
         <SocialAvatars {social}/>
     {/each}
