@@ -22,7 +22,7 @@
         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Nasze projekty</h2>
         <FooterLinkGroup>
           {#each projectsList as project}
-            <FooterLink liClass="mb-4" href={project.anchor}>{project.title}</FooterLink>
+            <FooterLink liClass="mb-4" href="#{project.anchor}">{project.title}</FooterLink>
           {/each}
         </FooterLinkGroup>
       </div>
