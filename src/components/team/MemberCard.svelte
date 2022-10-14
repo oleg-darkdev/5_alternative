@@ -4,7 +4,13 @@
     export let memberData;
 </script>
 
-<div class="m-2">
+<div data-aos="flip-up"
+    data-aos-delay="80"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false" 
+    class="m-2">
 <Card img={memberData.photo} >
     <div class="flex-align-center flex-col">
     <h5 class="text-center  mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{memberData.firstName} {memberData.surName}</h5>
