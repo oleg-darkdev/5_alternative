@@ -10,10 +10,10 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="false" 
-    class="m-2">
-<Card img={memberData.photo} >
+    class="m-1 " >
+<Card img={memberData.photo}  >
     <div class="flex-align-center flex-col">
-    <h5 class="text-center  mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{memberData.firstName} {memberData.surName}</h5>
+    <h5 class="text-center  mb-2 text-2xl font-bold tracking-tight text-gray-900 ">{memberData.firstName} {memberData.surName}</h5>
     <p class="text-center mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
         {memberData.text}
     </p>
