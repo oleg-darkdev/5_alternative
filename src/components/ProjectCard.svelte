@@ -1,10 +1,4 @@
 <script>
-  import AOS from 'aos';
-  import { onMount } from 'svelte';
-  onMount(() => {
-      AOS.init();
-  });       
-
   import { Button } from 'flowbite-svelte';
   export let align, title, img, description;
 </script>
