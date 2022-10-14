@@ -59,13 +59,13 @@
 <!-- workshops-section -->
 <div class="bg"></div>	
 
-<section class="mb-12 mt-12 lg:w-7/12 px-8 sm:w-8/12 h-auto p-10 "> 
+<section class="mb-12 mt-12 lg:w-7/12 px-8 sm:w-8/12 h-auto sm:p-1 lg:p-10 md:p-8"> 
 	<a name="about"></a> 
 	<h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl ">O nas</h2>
 	<AboutUs />
 </section>
 
-<section class="yellow-bg  mb-12 mt-12 lg:w-7/12 px-8 sm:w-8/12 h-auto p-10  "> 
+<section class="yellow-bg  mb-12 mt-12 lg:w-7/12 px-8 sm:w-12/12 h-auto p-10  "> 
 	<a name="projects"></a> 
 	<h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">Nasze projekty</h2>
 	{#each projectsList as project}
@@ -78,7 +78,7 @@
 	<OneProcent />
 </section>
 
-<section class="turq-bg  mt-12 lg:w-7/12  sm:w-8/12 h-auto p-10 "> 
+<section class="turq-bg  mt-12 lg:w-7/12  sm:w-12/12 h-auto sm:p-1 lg:p-10 md:p-8"> 
 	<a name="team"></a> 
 	
 	<h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl ">Nasza ekipa</h2>
@@ -87,9 +87,11 @@
 
 	
 
-
-
-
+<section class="mt-12 lg:w-7/12  sm:w-8/12 h-auto p-4"> 
+	<a name="team"></a> 
+	
+	<iframe class="bg-white shadow-md rounded-lg border border-gray-200 text-gray-500 p-2" width="100%" height="600px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=18.547909855842594%2C54.46001700833452%2C18.550592064857486%2C54.46113953783808&amp;layer=mapnik&amp;marker=54.46057827693473%2C18.549250960350037" ></iframe>
+</section>
 
 
 
