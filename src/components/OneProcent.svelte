@@ -1,14 +1,8 @@
 <script>
-  import AOS from 'aos';
-  import { onMount } from 'svelte';
-  onMount(() => {
-      AOS.init();
-  });       
-
-  import { Card, Button } from "flowbite-svelte";
+   import { Button } from "flowbite-svelte";
 </script>
 
-<div class="bg-one-procent">
+<div class="bg-one-procent shadow-md rounded-lg border border-gray-200 ">
 <div  data-aos="fade-right" 
     data-aos-delay="80"
     data-aos-duration="800"
