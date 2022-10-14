@@ -6,7 +6,7 @@
 <div  data-aos="fade-right" 
     data-aos-delay="80"
     data-aos-duration="800"
-    style="" class="w-full h-auto flex max-w-sm flex-col bg-white dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 p-6">
+    style="" class="w-full h-auto flex max-w-sm flex-col bg-white  shadow-md text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 p-6">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Wspieraj nas 1%</h5>
     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
     Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
