@@ -9,6 +9,36 @@
 	} from 'flowbite-svelte';
 	import socialLinksData from '../data/social';
 	import projectsList from '../data/projectsList';
+
+
+	let partnersData = [
+		{
+			logoImg: '/partners/na_drodze.png',
+			title: '',
+			link: ''
+		},
+		{
+			logoImg: '/partners/sds.png',
+			title: '',
+			link: ''
+		},
+		{
+			logoImg: '/partners/sopot.png',
+			title: '',
+			link: ''
+		},
+		{
+			logoImg: '/partners/pomeranian.png',
+			title: '',
+			link: ''
+		},
+		// {
+		// 	logoImg: '',
+		// 	title: '',
+		// 	link: ''
+		// },
+
+	]
 </script>
 
 <Footer class="" style="" footerType="socialmedia">
@@ -20,25 +50,39 @@
 				alt="Alternatywy 5 - Dom Sąsiedzki Logo"
 				name="Flowbite"
 			/>
-			<div
+			<!-- <div
 				class="mt-4 rounded-lg border border-gray-200 "
 				style="background-image: url(/footer.png); height: 250px; width: 50vw;"
-			/>
+			/> -->
+			<div class="column mt-6">
+				<a name="partners" />
+				<h2 class=" text-sm font-semibold text-gray-900 uppercase ">
+					Partnerzy
+				</h2>
+				<div class="p-0 m-0 partners-logos-wrap">
+					{#each partnersData as partner}
+						<div
+							class="m-1 partners-logos rounded-lg border border-gray-300 "
+							style="background-image: url({partner.logoImg});"
+						/>
+					{/each}
+				</div>
+			</div>
 		</div>
 
 		<div class="grid grid-cols-2  gap-6 content-end sm:gap-6 sm:grid-cols-2">
 			<div class="mr-4 ml-4">
-				<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+				<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">
 					Nasze projekty
 				</h2>
 				<FooterLinkGroup>
 					{#each projectsList as project}
-						<FooterLink liClass="mb-4" href="#{project.anchor}">{project.title}</FooterLink>
+						<FooterLink liClass="mb-4" on:click={() => project.showMoreInfo = true} href="#{project.anchor}">{project.title}</FooterLink>
 					{/each}
 				</FooterLinkGroup>
 			</div>
 			<div class="mr-4 ml-4">
-				<h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
+				<h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 ">
 					Subskrybuj nas
 				</h2>
 				<FooterLinkGroup>
@@ -90,3 +134,25 @@
 		</div>
 	</div>
 </Footer>
+
+
+<style>
+	.partners-logos {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		 height: 100px; 
+		 width: 200px;
+	}
+
+	.partners-logos-wrap {
+		display: flex;
+		flex-direction: row;
+		/* justify-content: space-between; */
+
+		/* max-width: 50vw; */
+		width: auto;
+		height: auto;
+		flex-wrap: wrap;
+	}
+</style>
