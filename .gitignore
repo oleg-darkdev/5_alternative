@@ -2,9 +2,10 @@
 node_modules
 /build
 /.svelte-kit
+/production
 /package
 .env
 .env.*
 !.env.example
-pnpm-lock.yaml
-npm-lock.yaml
+.vercel
+.output
