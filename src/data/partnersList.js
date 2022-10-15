@@ -1,19 +1,10 @@
+import organisatorsWorkshops from './organisatorsWorkshopsList';
+
 let partnersData = [
-	{
-		logoImg: '/partners/na_drodze.png',
-		title: '',
-		link: ''
-	},
-	{
-		logoImg: '/partners/sds.png',
-		title: '',
-		link: ''
-	},
-	{
-		logoImg: '/partners/sopot.png',
-		title: '',
-		link: ''
-	},
+	organisatorsWorkshops.sds,
+	organisatorsWorkshops.alt,
+	organisatorsWorkshops.hackerspace,
+	organisatorsWorkshops.darkdev,
 	{
 		logoImg: '/partners/pomeranian.png',
 		title: '',
