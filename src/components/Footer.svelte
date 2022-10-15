@@ -110,14 +110,6 @@
 
 
 <style>
-	.partners-logos {
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		 height: 100px; 
-		 width: 200px;
-	}
-
 	.partners-logos-wrap {
 		display: flex;
 		flex-direction: row;

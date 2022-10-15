@@ -20,4 +20,12 @@
 		justify-content: center;
 		flex-wrap: wrap;
 	}
+
+	:global(.partners-logos) {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		 height: 80px; 
+		 width: 160px;
+	}
 </style>
