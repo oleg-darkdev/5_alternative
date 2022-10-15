@@ -1,8 +1,12 @@
 <script>
+	import Header from '../components/Header.svelte';
+	import Footer from '../components/Footer.svelte';
+
 	import AboutUs from '../components/AboutUs.svelte';
 	import ProjectCard from '../components/ProjectCard.svelte';
 	import OneProcent from '../components/OneProcent.svelte';
 	import OutTeam from '../components/OurTeam.svelte';
+	import Contact from '../components/Contact.svelte';
 
 	import projectsList from '../data/projectsList';
 </script>
@@ -10,6 +14,9 @@
 <svelte:head>
 	<title>Alternatywy 5 - Dom Sąsiedzki</title>
 </svelte:head>
+
+<Header />
+
 
 <!-- workshops-section -->
 <div class="bg" />
@@ -50,19 +57,10 @@
 
 <section class="mt-12 lg:w-7/12 mb-12 mt-12 sm:w-8/12 h-auto p-4">
 	<a name="contact" />
+	<Contact />
 
-	<iframe
-		class="bg-white shadow-md rounded-lg border border-gray-200 text-gray-500 p-2"
-		width="100%"
-		height="600px"
-		frameborder="0"
-		scrolling="no"
-		marginheight="0"
-		marginwidth="0"
-		src="https://www.openstreetmap.org/export/embed.html?bbox=18.547909855842594%2C54.46001700833452%2C18.550592064857486%2C54.46113953783808&amp;layer=mapnik&amp;marker=54.46057827693473%2C18.549250960350037"
-	/>
 </section>
-
+<Footer />
 <style>
 	section {
 		width: 100%;
@@ -80,20 +78,16 @@
 	}
 
 	.bg {
-		/* The image used */
 		background-image: url('/banner.png');
-
-		/* Full height */
 		height: 100vh;
 		width: 100%;
-
-		/* Center and scale the image nicely */
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
 	.boardgames-section {
+		
 	}
 
 	.tools-section {
