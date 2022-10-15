@@ -1,18 +1,19 @@
 {
-	"name": "44hackerspace-site",
-	"version": "0.1.2",
-	"description": "44hackerspace-site official site",
+	"name": "5_alternative",
+	"version": "0.1.1",
+	"description": "Alternatywy 5 - Dom Sąsiedzki official site",
 	"author": {
 		"name": "Oleg Medvedev",
-		"email": "44hackerspace@gmail.com",
-		"url": "https://linktr.ee/44hackerspace"
+		"email": "darkdev_brand@riseup.net",
+		"url": "https://alternatywy.herokuapp.com/"
 	},
 	"bugs": "",
-	"homepage": "",
+	"homepage": "https://alternatywy.herokuapp.com/",
 	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev --host --port 3000",
 		"build": "vite build",
+                "start": "node production",
 		"package": "svelte-kit package",
 		"preview": "vite preview",
 		"test": "playwright test",
