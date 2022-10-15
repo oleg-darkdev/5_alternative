@@ -9,36 +9,9 @@
 	} from 'flowbite-svelte';
 	import socialLinksData from '../data/social';
 	import projectsList from '../data/projectsList';
+	import partnersList from '../data/partnersList';
 
 
-	let partnersData = [
-		{
-			logoImg: '/partners/na_drodze.png',
-			title: '',
-			link: ''
-		},
-		{
-			logoImg: '/partners/sds.png',
-			title: '',
-			link: ''
-		},
-		{
-			logoImg: '/partners/sopot.png',
-			title: '',
-			link: ''
-		},
-		{
-			logoImg: '/partners/pomeranian.png',
-			title: '',
-			link: ''
-		},
-		// {
-		// 	logoImg: '',
-		// 	title: '',
-		// 	link: ''
-		// },
-
-	]
 </script>
 
 <Footer class="" style="" footerType="socialmedia">
@@ -60,7 +33,7 @@
 					Partnerzy
 				</h2>
 				<div class="p-0 m-0 partners-logos-wrap">
-					{#each partnersData as partner}
+					{#each partnersList as partner}
 						<div
 							class="m-1 partners-logos rounded-lg border border-gray-300 "
 							style="background-image: url({partner.logoImg});"
