@@ -1,3 +1,5 @@
+import organisatorsWorkshopsData from './organisatorsWorkshopsList';
+
 const projectsList = [
 	{
 		align: 'start',
@@ -5,7 +7,21 @@ const projectsList = [
 		anchor: 'wood',
 		showMoreInfo: false,
 		description:
-			'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
+			'Stolarka jest zajęciem tylko dla mężczyzn? Oczywiście, że nie! Jeśli zawsze chciałaś spróbować swoich sił w tym obszarze, ale nie do końca wiedziałaś jak się do tego zabrać to te warsztaty są dla Ciebie!',
+		moreInfo: {
+			text: [
+				'Na zajęciach nauczycie się podstawowych umiejętności pracy z drewnem oraz bezpiecznego i prawidłowego używania narzędzi stolarskich! Na początek trochę teorii, a resztę zajęć poświęcicie praktyce. Będziecie mierzyć, wiercić, ciąć, szlifować, skręcać, czego efektem będzie samodzielnie wykonany przedmiot o niewielkim stopniu trudności!',
+				'Widzimy się w każdą środę 16-19! PS.Mężczyźni również mile widziani 😉'
+			],
+			orgs: [
+				organisatorsWorkshopsData.alt,
+				organisatorsWorkshopsData.sds,
+				organisatorsWorkshopsData.slowoOfWood
+				// organisatorsWorkshopsData.alt
+
+				// sds alt; slowoOfWood; hackerspace; darkdev;
+			]
+		}
 	},
 	{
 		align: 'end',
@@ -13,7 +29,16 @@ const projectsList = [
 		anchor: 'hackerspace',
 		showMoreInfo: false,
 		description:
-			'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
+			'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
+		moreInfo: {
+			text: ['', '', ''],
+			orgs: [
+				organisatorsWorkshopsData.hackerspace,
+				organisatorsWorkshopsData.darkdev,
+				organisatorsWorkshopsData.alt,
+				organisatorsWorkshopsData.sds
+			]
+		}
 	},
 	{
 		align: 'start',
@@ -21,14 +46,22 @@ const projectsList = [
 		anchor: 'photo',
 		showMoreInfo: false,
 		description:
-			'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
+			'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
+		moreInfo: {
+			text: ['', '', ''],
+			orgs: [organisatorsWorkshopsData.alt, organisatorsWorkshopsData.sds]
+		}
 	},
 	{
 		align: 'end',
 		title: '🏅 Turnieje sportowe',
 		anchor: 'ping-pong',
 		showMoreInfo: false,
-		description: '🏓 Turnieje ping-pongowe, ♟️ Turnieje szachowe '
+		description: '🏓 Turnieje ping-pongowe, ♟️ Turnieje szachowe ',
+		moreInfo: {
+			text: ['', '', ''],
+			orgs: [organisatorsWorkshopsData.alt, organisatorsWorkshopsData.sds]
+		}
 	},
 	{
 		align: 'start',
@@ -36,7 +69,16 @@ const projectsList = [
 		anchor: 'bicycle',
 		showMoreInfo: false,
 		description:
-			'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
+			'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
+		moreInfo: {
+			text: ['', '', ''],
+			orgs: [
+				organisatorsWorkshopsData.hackerspace,
+				organisatorsWorkshopsData.darkdev,
+				organisatorsWorkshopsData.alt,
+				organisatorsWorkshopsData.sds
+			]
+		}
 	},
 	{
 		align: 'end',
@@ -44,7 +86,16 @@ const projectsList = [
 		anchor: 'boardgames',
 		showMoreInfo: false,
 		description:
-			'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
+			'Gry planszowe to okazja do intelektualnej zabawy i miłego spędzenia wieczoru. 🧠 Zapraszamy wszystkich, którzy tęsknią za grami planszowymi i tych, którzy będą grać pierwszy raz . ',
+		moreInfo: {
+			text: ['', '', ''],
+			orgs: [
+				organisatorsWorkshopsData.hackerspace,
+				organisatorsWorkshopsData.darkdev,
+				organisatorsWorkshopsData.alt,
+				organisatorsWorkshopsData.sds
+			]
+		}
 	},
 	{
 		align: 'start',
@@ -52,7 +103,16 @@ const projectsList = [
 		anchor: 'repair',
 		showMoreInfo: false,
 		description:
-			'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
+			'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
+		moreInfo: {
+			text: ['', '', ''],
+			orgs: [
+				organisatorsWorkshopsData.hackerspace,
+				organisatorsWorkshopsData.darkdev,
+				organisatorsWorkshopsData.alt,
+				organisatorsWorkshopsData.sds
+			]
+		}
 	}
 ];
 

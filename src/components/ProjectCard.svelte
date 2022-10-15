@@ -21,13 +21,32 @@
 				{project.description}
 			</p>
 			{#if project.showMoreInfo}
-				<div class="mb-3">
-					<p class="mb-2 font-normal text-gray-700 dark:text-gray-400 leading-tight">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					</p>
+				<div class="column mt-3"> 
+					{#each project.moreInfo.text as text}
+						<p class="mb-2 font-normal text-gray-700 dark:text-gray-400 leading-tight">
+							{text}
+						</p>
+					{/each}
+
+				<h2 class="mt-10 mb-1 text-sm font-semibold text-gray-900 uppercase ">
+					Organizatorzy
+				</h2>
+					<div class="orgs-logos-wrap p-0 m-0">
+						{#each project.moreInfo.orgs as org}
+						<div class="column p-1 m-1">
+							<div 
+								class="partners-logos rounded-lg border border-gray-300 "
+								style="background-image: url({org.logoImg}); width: 220px; height: 110px;"
+							/>
+							<h4 class="text-center"><a href="{org.link}" target="_blank" >{org.title}</a></h4>
+						</div>
+						{/each}
+					</div>
 				</div>
 			{/if}
-			<Button gradient color="pinkToOrange" on:click={() => project.showMoreInfo = true} size="xl">More</Button>
+			{#if !project.showMoreInfo}
+				<Button gradient color="pinkToOrange" on:click={() => project.showMoreInfo = true} size="xl">More</Button>
+			{/if}
 		</div>
 	</div>
 </div>
@@ -40,5 +59,22 @@
 		background-size: cover;
 		height: 100%;
 		width: 100%;
+	}
+
+	.orgs-logos-wrap {
+		display: flex;
+		flex-direction: row;
+		/* justify-content: space-between; */
+
+		/* max-width: 50vw; */
+		width: auto;
+		height: auto;
+		flex-wrap: wrap;
+	}
+
+	.partners-logos {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 </style>
