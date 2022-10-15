@@ -25,7 +25,7 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		 height: 80px; 
-		 width: 160px;
+		height: 60px; 
+		width: 140px;
 	}
 </style>
