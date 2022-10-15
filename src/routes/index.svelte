@@ -21,7 +21,7 @@
 <!-- workshops-section -->
 <div class="bg" />
 
-<section class="mb-12 mt-12 lg:w-7/12 px-8 sm:w-8/12 h-auto sm:p-1 lg:p-10 md:p-8">
+<section class="mb-12 mt-12 lg:w-7/12 px-8 sm:w-8/12 h-auto sm:p-1 p-10p-10">
 	<a name="about" />
 
 	<AboutUs />
@@ -44,11 +44,11 @@
 	<OneProcent />
 </section>
 
-<section class="turq-bg  mt-12 lg:w-7/12  sm:w-12/12 h-auto sm:p-1 lg:p-10 md:p-8">
+<section class="turq-bg  mt-12 lg:w-7/12  sm:w-12/12 h-auto sm:p-1 p-10">
 	<a name="team" />
 
 	<h2
-		class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl "
+		class="mt-6 mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl "
 	>
 		Nasza ekipa
 	</h2>
