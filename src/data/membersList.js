@@ -148,6 +148,4 @@ const membersList = [
 	}
 ];
 
-
-
 export default membersList;

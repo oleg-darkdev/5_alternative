@@ -35,7 +35,7 @@ const socialLinks = [
 		logoImg: '/social/patronite.png',
 		link: '',
 		logoSvg: ''
-	},
+	}
 	// {
 	// 	name: 'Github',
 	// 	logoImg: '',
@@ -62,7 +62,4 @@ const socialLinks = [
 	// }
 ];
 
-
-
-
-export default socialLinks
+export default socialLinks;

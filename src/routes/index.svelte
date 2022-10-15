@@ -1,58 +1,67 @@
 <script>
 	import AboutUs from '../components/AboutUs.svelte';
 	import ProjectCard from '../components/ProjectCard.svelte';
-	import OneProcent from '../components/OneProcent.svelte'
+	import OneProcent from '../components/OneProcent.svelte';
 	import OutTeam from '../components/OurTeam.svelte';
 
 	import projectsList from '../data/projectsList';
-	
-
-
 </script>
 
 <svelte:head>
-    <title>Alternatywy 5 - Dom Sąsiedzki </title>
-</svelte:head> 
+	<title>Alternatywy 5 - Dom Sąsiedzki</title>
+</svelte:head>
 
 <!-- workshops-section -->
-<div class="bg"></div>	
+<div class="bg" />
 
-<section class="mb-12 mt-12 lg:w-7/12 px-8 sm:w-8/12 h-auto sm:p-1 lg:p-10 md:p-8"> 
-	<a name="about"></a> 
-	
+<section class="mb-12 mt-12 lg:w-7/12 px-8 sm:w-8/12 h-auto sm:p-1 lg:p-10 md:p-8">
+	<a name="about" />
+
 	<AboutUs />
 </section>
 
-<section class="yellow-bg  mb-12 mt-12 lg:w-7/12 px-8 sm:w-12/12 h-auto p-10  "> 
-	<a name="projects"></a> 
-	<h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">Nasze projekty</h2>
+<section class="yellow-bg  mb-12 mt-12 lg:w-7/12 px-8 sm:w-12/12 h-auto p-10  ">
+	<a name="projects" />
+	<h2
+		class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl"
+	>
+		Nasze projekty
+	</h2>
 	{#each projectsList as project}
 		<ProjectCard {project} />
 	{/each}
 </section>
-<section class="mt-12 lg:w-7/12  sm:w-8/12 h-auto p-10 "> 
-	<a name="donate"></a> 
+<section class="mt-12 lg:w-7/12  sm:w-8/12 h-auto p-10 ">
+	<a name="donate" />
 
 	<OneProcent />
 </section>
 
-<section class="turq-bg  mt-12 lg:w-7/12  sm:w-12/12 h-auto sm:p-1 lg:p-10 md:p-8"> 
-	<a name="team"></a> 
-	
-	<h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl ">Nasza ekipa</h2>
+<section class="turq-bg  mt-12 lg:w-7/12  sm:w-12/12 h-auto sm:p-1 lg:p-10 md:p-8">
+	<a name="team" />
+
+	<h2
+		class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl "
+	>
+		Nasza ekipa
+	</h2>
 	<OutTeam />
 </section>
 
-	
+<section class="mt-12 lg:w-7/12 mb-12 mt-12 sm:w-8/12 h-auto p-4">
+	<a name="contact" />
 
-<section class="mt-12 lg:w-7/12 mb-12 mt-12 sm:w-8/12 h-auto p-4"> 
-	<a name="contact"></a> 
-	
-	<iframe class="bg-white shadow-md rounded-lg border border-gray-200 text-gray-500 p-2" width="100%" height="600px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=18.547909855842594%2C54.46001700833452%2C18.550592064857486%2C54.46113953783808&amp;layer=mapnik&amp;marker=54.46057827693473%2C18.549250960350037" ></iframe>
+	<iframe
+		class="bg-white shadow-md rounded-lg border border-gray-200 text-gray-500 p-2"
+		width="100%"
+		height="600px"
+		frameborder="0"
+		scrolling="no"
+		marginheight="0"
+		marginwidth="0"
+		src="https://www.openstreetmap.org/export/embed.html?bbox=18.547909855842594%2C54.46001700833452%2C18.550592064857486%2C54.46113953783808&amp;layer=mapnik&amp;marker=54.46057827693473%2C18.549250960350037"
+	/>
 </section>
-
-
-
 
 <style>
 	section {
@@ -67,45 +76,39 @@
 	}
 
 	.turq-bg {
-		background-color: #32B295;
+		background-color: #32b295;
 	}
 
+	.bg {
+		/* The image used */
+		background-image: url('/banner.png');
 
-.bg {
-  /* The image used */
-  background-image: url("/banner.png");
+		/* Full height */
+		height: 100vh;
+		width: 100%;
 
-  /* Full height */
-  height: 100vh;
-  width: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
 	.boardgames-section {
-
 	}
 
 	.tools-section {
-
 	}
 
 	.faq-section {
-
 	}
 
 	.contact-section {
-
 	}
 
 	.community-section {
-
 	}
 
-:global(body, html) {
-  height: 100%;
-}
+	:global(body, html) {
+		height: 100%;
+	}
 </style>
