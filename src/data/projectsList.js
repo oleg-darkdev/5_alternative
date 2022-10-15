@@ -57,7 +57,9 @@ const projectsList = [
 		title: '🏅 Turnieje sportowe',
 		anchor: 'ping-pong',
 		showMoreInfo: false,
-		description: '🏓 Turnieje ping-pongowe, ♟️ Turnieje szachowe ',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+		// 🏓 Turnieje ping-pongowe, ♟️ Turnieje szachowe
 		moreInfo: {
 			text: ['', '', ''],
 			orgs: [organisatorsWorkshopsData.alt, organisatorsWorkshopsData.sds]
