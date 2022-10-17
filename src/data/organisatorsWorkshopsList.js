@@ -26,4 +26,4 @@ let orgsData = {
 	}
 };
 
-export default orgsData; 
+export default orgsData;

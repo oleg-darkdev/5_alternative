@@ -10,8 +10,6 @@
 	import socialLinksData from '../data/social';
 	import projectsList from '../data/projectsList';
 	import partnersList from '../data/partnersList';
-
-
 </script>
 
 <Footer class="" style="" footerType="socialmedia">
@@ -29,9 +27,7 @@
 			/> -->
 			<div class="column mt-6">
 				<a name="partners" />
-				<h2 class=" text-sm font-semibold text-gray-900 uppercase ">
-					Partnerzy
-				</h2>
+				<h2 class=" text-sm font-semibold text-gray-900 uppercase ">Partnerzy</h2>
 				<div class="p-0 m-0 partners-logos-wrap">
 					{#each partnersList as partner}
 						<div
@@ -45,19 +41,19 @@
 
 		<div class="grid grid-cols-2  gap-6 content-end sm:gap-6 sm:grid-cols-2">
 			<div class="mr-4 ml-4">
-				<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">
-					Nasze projekty
-				</h2>
+				<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Nasze projekty</h2>
 				<FooterLinkGroup>
 					{#each projectsList as project}
-						<FooterLink liClass="mb-4" on:click={() => project.showMoreInfo = true} href="#{project.anchor}">{project.title}</FooterLink>
+						<FooterLink
+							liClass="mb-4"
+							on:click={() => (project.showMoreInfo = true)}
+							href="#{project.anchor}">{project.title}</FooterLink
+						>
 					{/each}
 				</FooterLinkGroup>
 			</div>
 			<div class="mr-4 ml-4">
-				<h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 ">
-					Subskrybuj nas
-				</h2>
+				<h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 ">Subskrybuj nas</h2>
 				<FooterLinkGroup>
 					{#each socialLinksData as socialData}
 						<FooterLink liClass="mb-4" href={socialData.link}>{socialData.name}</FooterLink>
@@ -107,7 +103,6 @@
 		</div>
 	</div>
 </Footer>
-
 
 <style>
 	.partners-logos-wrap {

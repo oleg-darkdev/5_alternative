@@ -23,7 +23,7 @@
 		class="mb-4 max-w-sm bg-white shadow-md rounded-lg border border-gray-200  text-gray-500 p-6"
 	>
 		<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center">
-			5alternatyw@gmail.com 
+			5alternatyw@gmail.com
 		</h5>
 		<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center">
 			Mazowiecka 26, 81-862 Sopot, Poland
@@ -33,7 +33,4 @@
 
 		<SocialMedia />
 	</div>
-
-	
 </div>
-

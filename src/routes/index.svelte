@@ -17,7 +17,6 @@
 
 <Header />
 
-
 <!-- workshops-section -->
 <div class="bg" />
 
@@ -58,9 +57,9 @@
 <section class="mt-12 lg:w-7/12 mb-12 mt-12 sm:w-8/12 h-auto p-4">
 	<a name="contact" />
 	<Contact />
-
 </section>
 <Footer />
+
 <style>
 	section {
 		width: 100%;
@@ -82,17 +81,15 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	@media (min-width: 1024px)  {
+	@media (min-width: 1024px) {
 		.bg {
 			background-image: url('/banner.png');
 			height: 100vh;
 			width: 100%;
 		}
-
 	}
 
-
-	@media (min-device-width: 568px) and (max-device-width: 1024px)  {
+	@media (min-device-width: 568px) and (max-device-width: 1024px) {
 		.bg {
 			background-image: url('/banner_md.png');
 			height: 480px;
@@ -105,5 +102,4 @@
 			min-height: 320px;
 		}
 	}
-	
 </style>

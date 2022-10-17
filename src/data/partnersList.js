@@ -22,6 +22,4 @@ let partnersData = [
 	// },
 ];
 
-
-
 export default partnersData;

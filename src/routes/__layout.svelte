@@ -6,13 +6,9 @@
 	onMount(() => {
 		AOS.init();
 	});
-
-
 </script>
 
-
 <slot />
-
 
 <style>
 	:global(.flex-align-center) {
@@ -25,7 +21,7 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 60px; 
+		height: 60px;
 		width: 140px;
 	}
 

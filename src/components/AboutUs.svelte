@@ -25,7 +25,8 @@
 			Alternatywy 5 - Dom Sąsiedzki w Kamiennym Potoku
 		</h5>
 		<p class="font-normal text-gray-700  dark:text-gray-400 leading-tight mt-2 mb-2">
-			Sąsiedzka przestrzeń oferująca spotkania, wernisaże, dyskusje, warsztaty: rękodzieła, majsterkowania, muzyczne. 
+			Sąsiedzka przestrzeń oferująca spotkania, wernisaże, dyskusje, warsztaty: rękodzieła,
+			majsterkowania, muzyczne.
 		</p>
 		<p class="font-normal text-gray-700  dark:text-gray-400 leading-tight mt-2 mb-2">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
