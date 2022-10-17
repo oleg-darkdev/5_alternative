@@ -7,7 +7,12 @@ let partnersData = [
 	organisatorsWorkshops.darkdev,
 	{
 		logoImg: '/partners/pomeranian.png',
-		title: '',
+		title: 'Województwo pomorskie',
+		link: ''
+	},
+	{
+		logoImg: '/partners/na_drodze.png',
+		title: 'Na Drodze Ekspresji',
 		link: ''
 	}
 	// {

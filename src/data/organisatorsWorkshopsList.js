@@ -16,7 +16,7 @@ let orgsData = {
 	},
 	hackerspace: {
 		logoImg: '/organisatorsWorkshops/44hackerspace_orgs.png',
-		title: '44hackerspace',
+		title: '44Hackerspace',
 		link: ''
 	},
 	darkdev: {
