@@ -78,31 +78,32 @@
 	}
 
 	.bg {
-		background-image: url('/banner.png');
-		height: 100vh;
-		width: 100%;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+	@media (min-width: 1024px)  {
+		.bg {
+			background-image: url('/banner.png');
+			height: 100vh;
+			width: 100%;
+		}
 
-	.boardgames-section {
-		
 	}
 
-	.tools-section {
+
+	@media (min-device-width: 568px) and (max-device-width: 1024px)  {
+		.bg {
+			background-image: url('/banner_md.png');
+			height: 480px;
+		}
 	}
 
-	.faq-section {
+	@media (min-device-width: 320px) and (max-device-width: 568px) {
+		.bg {
+			background-image: url('/banner_sm.png');
+			min-height: 320px;
+		}
 	}
-
-	.contact-section {
-	}
-
-	.community-section {
-	}
-
-	:global(body, html) {
-		height: 100%;
-	}
+	
 </style>
