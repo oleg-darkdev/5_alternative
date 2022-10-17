@@ -28,4 +28,8 @@
 		height: 60px; 
 		width: 140px;
 	}
+
+	:global(body, html) {
+		height: 100%;
+	}
 </style>
