@@ -2,7 +2,7 @@ const membersList = [
 	{
 		firstName: 'Piotr',
 		surName: 'Harhaj',
-		text: 'Dyrektor Alternatywy 5 🎩',
+		text: 'Prezes Stowarzyszenia na Drodze Ekspresji',
 		photo: '/about/piotr.png',
 		contacts: [
 			{
@@ -34,7 +34,7 @@ const membersList = [
 	{
 		firstName: 'Katarzyna',
 		surName: 'Kozlowska',
-		text: 'Gospodarka w stolarni 🪓',
+		text: 'Prowadzi warsztaty stolarskie 🪓',
 		photo: '/about/kasia.png',
 		contacts: [
 			// {
@@ -112,6 +112,45 @@ const membersList = [
 		surName: 'Medvedev',
 		text: 'Założyciel 44Hackerspace 💻',
 		photo: '/about/oleg.png',
+		contacts: [
+			{
+				altName: 'Telegram',
+				logoImg: '/social/telegram_personal.png',
+				link: 'https://t.me/polish_cat',
+				logoSvg: ''
+			},
+			{
+				altName: 'Facebook',
+				logoImg: '/social/facebook_personal.png',
+				link: 'https://www.facebook.com/hulio.mondre',
+				logoSvg: ''
+			},
+			{
+				altName: 'Instagram',
+				logoImg: '/social/instagram_personal.png',
+				link: 'https://www.instagram.com/jesus.hobo/',
+				logoSvg: ''
+			},
+
+			{
+				altName: 'Linkedin',
+				logoImg: '/social/linkedin_personal.png',
+				link: 'https://www.linkedin.com/in/oleg-darkdev',
+				logoSvg: ''
+			},
+			{
+				altName: 'Discord',
+				logoImg: '/social/discord_personal.png',
+				link: 'https://discord.com/users/oleg_DarkDev#8277',
+				logoSvg: ''
+			}
+		]
+	},
+	{
+		firstName: 'Zuza',
+		surName: 'Ostrowska',
+		text: 'Koordynatorka domów sąsiedzkich 🏠',
+		photo: '/about/zuza.png',
 		contacts: [
 			{
 				altName: 'Telegram',
